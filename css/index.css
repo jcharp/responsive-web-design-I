@@ -21,3 +21,154 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+nav {
+	display:inline-block;
+	width: 100px;
+	margin-left: 100px;
+}
+
+
+.top {
+
+	margin:150px;
+}
+.top h1{
+	
+	font-size: 90px;
+	padding: 10px;
+	width:200px;
+	margin-left: 100px;
+	text-align: center;
+}
+.top div{
+	border: 1px solid black;
+	width:200px;
+	margin-left:150px;
+	padding: 10px;
+	text-align: center;
+}
+.top img {
+	
+
+	margin-top: 150px;
+	margin-left:800px;
+	position: absolute;
+	left: 300;
+	top:0;
+}
+.bottom1  {
+
+	
+	display:inline-block;
+	width:600px;
+	margin-left:100px;
+}
+.bottom2 {
+
+	
+	display:inline-block;
+	width:600px;
+	margin-left:100px;
+	margin-bottom: 50px;
+}
+.middle-img {
+	
+	margin-left: 100px;
+	width: 1300px;
+	margin-bottom: 50px;
+}
+
+
+.last {
+	
+	display:inline-block;
+	width:400px;
+	margin-left:100px;
+}
+
+
+
+.last-2 {
+	
+	display:inline-block;
+	width:400px;
+	margin-left:33px;
+}
+
+
+
+
+.last-3 {
+	
+	display:inline-block;
+	width:400px;
+	margin-left:33px;
+
+}
+
+footer {
+	margin:100px;
+}
+
+.address {
+		margin-bottom: 15px;
+}
+
+.phone {
+	margin-bottom: 15px;
+
+}
+
+.copywrite {
+	margin-top:60px;
+	margin-left: 500px;
+}
+
+div {
+	border: 1px solid black;
+	margin-top:30px;
+	margin-bottom: 30px;
+	margin-left: 100px;
+	width:1300px;
