@@ -189,8 +189,18 @@ div {
 
 @media(max-width: 800px) {
 
+
+	
+	.logo {
+		border: 1px solid black;
+		order: -1;
+		text-align: center;
+		margin-left: 50%;
+		
+	}
 	
 	header {
+		
 		display:flex;
 		flex-direction: row;
 		justify-content: flex-start;
@@ -199,12 +209,6 @@ div {
 		
 	
 	
-		.logo {
-			order: -1;
-			text-align: center;
-			margin-left: 50%;
-			width: 250px;
-		}
 
 		.top {
 			text-align: center;
@@ -318,9 +322,66 @@ justify-content: space-evenly;
 		
 	}
 
-.logo {
-	border-bottom: 1px solid black;
-	border-bottom-width: 100%;
-}
+	.top h1 {
+		
+	
+		align-items: center;
+		margin-left: 20px;
+		font-size: 50px;
+	}
+
+
+	.top div {
+		border: 1px solid black;
+	
+		align-items: center;
+		margin-left: 20px;
+		font-size: 20px;
+	}
+
+
+	.first{
+		display: flex;
+		flex-direction: column;
+		
+		width: 500px;
+		
+
+	}
+	.middle-img {
+	
+		margin-left: 100px;
+		width: 500px;
+		margin-bottom: 50px;
+	}
+
+	.bottom1 {
+		
+			margin-left: 0px;
+		
+	}
+
+	.bottom2 {
+		margin-left: 0px;
+	}
+
+	.ultimate {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.last  {
+		margin-left: 0px;
+	}
+
+	.last-2 {
+		margin-left: 0px;
+	}
+
+	.last-3  {
+		margin-left: 0px;
+	}
+
+
 
 }
