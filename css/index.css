@@ -91,7 +91,7 @@ nav {
 }
 .top img {
 	
-
+	
 	margin-top: 150px;
 	margin-left:800px;
 	position: absolute;
@@ -165,10 +165,133 @@ footer {
 	margin-top:60px;
 	margin-left: 500px;
 }
+.first{
+	border-top: 1px solid black;
+	padding-top: 15px;	
+	display: flex;
+	flex-direction: row;
+}
+
+.ultimate {
+	border-bottom: 1px solid black;
+	padding-bottom: 15px;
+	display: flex;
+	flex-direction: row;
+}
 
 div {
-	border: 1px solid black;
+	
 	margin-top:30px;
 	margin-bottom: 30px;
 	margin-left: 100px;
 	width:1300px;
+}
+
+@media(max-width: 800px) {
+
+	
+	header {
+		display:flex;
+		flex-direction: row;
+		justify-content: flex-start;
+
+	}
+		
+	
+	
+		.logo {
+			order: -1;
+			text-align: center;
+			margin-left: 50%;
+			width: 250px;
+		}
+
+		.top {
+			text-align: center;
+			margin-left: 30%;
+		}
+
+		.top img {
+			display: none;
+		}
+		/*note for me. pasting here*/
+
+		
+.bottom1  {
+
+	
+	display:inline-block;
+	width:300px;
+	margin-left:100px;
+}
+.bottom2 {
+
+	
+	display:inline-block;
+	width:300px;
+	margin-left:100px;
+	margin-bottom: 50px;
+}
+.middle-img {
+	
+	margin-left: 100px;
+	width: 650px;
+	margin-bottom: 50px;
+}
+
+
+.last {
+	
+	display:inline-block;
+	width:400px;
+	margin-left:100px;
+}
+
+
+
+.last-2 {
+	
+	display:inline-block;
+	width:400px;
+	margin-left:33px;
+}
+
+
+
+
+.last-3 {
+	
+	display:inline-block;
+	width:400px;
+	margin-left:33px;
+
+}
+div {
+	
+	margin-top:30px;
+	margin-bottom: 30px;
+	margin-left: 100px;
+	width:650px;
+}
+
+.first{
+
+	
+	display: flex;
+	flex-direction: row;
+}
+
+
+.ultimate {
+	display: flex;
+	flex-direction: row;
+justify-content: space-evenly;
+
+}
+
+.copywrite {
+	margin-top:60px;
+	margin-left: 30%;
+}
+
+}
